@@ -44,3 +44,42 @@
    background-size: cover;
 }
 
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .menu-lives, .menu-time, .menu-score {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .menu-lives img {
+       height: 35px;
+    }
+
+    .square {
+        height: 100px;
+        width: 100px;
+        border: 0.2px solid black;
+    }
+
+}
+
+@media screen and (min-width: 610px) and (max-width: 1300px) { 
+    .menu-lives, .menu-time, .menu-score {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .menu-lives img {
+        height: 45px;
+     }
+
+}
